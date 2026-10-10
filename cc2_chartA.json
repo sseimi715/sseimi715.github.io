@@ -28,7 +28,7 @@
   },
   "mark": {
     "type": "line",
-    "color": "#f4134d",
+    "color": "navy",
     "strokeWidth": 2
   },
   "encoding": {
