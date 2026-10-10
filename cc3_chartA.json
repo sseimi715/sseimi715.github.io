@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "cc3_fertility.csv"
+  },
+  "title": {"text": "Total fertility rate, South Korea"},
+  "width": 400,
+  "height": 300,
+  "mark": {"type": "line", "color": "navy"},
+  "encoding": {
+    "x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
+    "y": {"field": "Fertility", "type": "quantitative"}
+  }
+}
