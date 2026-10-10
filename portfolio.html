@@ -46,11 +46,27 @@
     </div>
 </section>
 
+<section>
+    <h2>CC3. Policy debate</h2>
+    <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+        <div class="chart-box">
+            <h3>Chart 1</h3>
+            <figure id="cc2_chart1"></figure>
+        </div>
+        <div class="chart-box">
+            <h3>Chart 2</h3>
+            <figure id="cc2_chart2"></figure>
+        </div>
+    </div>
+</section>
+    
     <script>
      vegaEmbed('#cc1_chart1', 'cc1_chartA.json');
      vegaEmbed('#cc1_chart2', 'cc1_chartB.json');
      vegaEmbed('#cc2_chart1', 'cc2_chartA.json');
      vegaEmbed('#cc2_chart2', 'cc2_chartB.json');
+     vegaEmbed('#cc3_chart1', 'cc3_chartA.json');
+     vegaEmbed('#cc3_chart2', 'cc3_chartB.json');
     </script>
 </body>
 </html>
