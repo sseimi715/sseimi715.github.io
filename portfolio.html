@@ -9,8 +9,8 @@
 </head>
 
 <body>
-    <h1 class="big">Jeehye Kim</h1>
-    <h3 class="small">PP434 Portfolio</h3>
+    <h1 class="big">PP434 Portfolio</h1>
+    <h3 class="small">Jeehye Kim</h3>
 
     <section>
         <h2>CC1. Hosting</h2>
@@ -18,15 +18,16 @@
         <figure id="cc1_chart2"></figure>
     </section>
 
+    <script>
+        vegaEmbed('#cc1_chart1', 'cc1_chartA.json');
+        vegaEmbed('#cc1_chart2', 'cc1_chartB.json');
+    </script>
+
     <section>
         <h2>CC2. Building</h2>
         <figure id="cc2_chart1"></figure>
         <figure id="cc2_chart2"></figure>
     </section>
 
-    <script>
-        vegaEmbed('#cc1_chart1', 'cc1_chartA.json');
-        vegaEmbed('#cc1_chart2', 'cc1_chartB.json');
-    </script>
 </body>
 </html>
