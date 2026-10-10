@@ -1,0 +1,14 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "cc3_aging.csv"
+  },
+  "title": {"text": "Old-age dependency ratio, South Korea"},
+  "width": 400,
+  "height": 300,
+  "mark": {"type": "line", "color": "brown"},
+  "encoding": {
+    "x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
+    "y": {"field": "Ratio", "type": "quantitative"}
+  }
+}
