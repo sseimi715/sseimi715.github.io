@@ -6,7 +6,7 @@
   "title": {"text": "Old-age dependency ratio, South Korea"},
   "width": 400,
   "height": 300,
-  "mark": {"type": "line", "color": "brown"},
+  "mark": {"type": "line", "color": "navy"},
   "encoding": {
     "x": {"field": "Year", "type": "quantitative", "axis": {"format": "d"}},
     "y": {"field": "Ratio", "type": "quantitative"}
