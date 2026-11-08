@@ -1,0 +1,117 @@
+date,series,value
+2021-12-01,Oil ($/bbl),78.7
+2021-12-01,Diesel refining premium ($/bbl),11.9
+2022-01-01,Oil ($/bbl),88.6
+2022-01-01,Diesel refining premium ($/bbl),24.2
+2022-02-01,Oil ($/bbl),96.7
+2022-02-01,Diesel refining premium ($/bbl),35.1
+2022-03-01,Oil ($/bbl),102.4
+2022-03-01,Diesel refining premium ($/bbl),45.7
+2022-04-01,Oil ($/bbl),111.8
+2022-04-01,Diesel refining premium ($/bbl),45.9
+2022-05-01,Oil ($/bbl),115.9
+2022-05-01,Diesel refining premium ($/bbl),48.9
+2022-06-01,Oil ($/bbl),118.9
+2022-06-01,Diesel refining premium ($/bbl),55.5
+2022-07-01,Oil ($/bbl),111.8
+2022-07-01,Diesel refining premium ($/bbl),51.5
+2022-08-01,Oil ($/bbl),102.1
+2022-08-01,Diesel refining premium ($/bbl),50.9
+2022-09-01,Oil ($/bbl),92.6
+2022-09-01,Diesel refining premium ($/bbl),49.9
+2022-10-01,Oil ($/bbl),89.7
+2022-10-01,Diesel refining premium ($/bbl),41.2
+2022-11-01,Oil ($/bbl),88.4
+2022-11-01,Diesel refining premium ($/bbl),43.3
+2022-12-01,Oil ($/bbl),83.5
+2022-12-01,Diesel refining premium ($/bbl),43.1
+2023-01-01,Oil ($/bbl),83.0
+2023-01-01,Diesel refining premium ($/bbl),32.6
+2023-02-01,Oil ($/bbl),80.7
+2023-02-01,Diesel refining premium ($/bbl),24.6
+2023-03-01,Oil ($/bbl),81.2
+2023-03-01,Diesel refining premium ($/bbl),21.9
+2023-04-01,Oil ($/bbl),79.4
+2023-04-01,Diesel refining premium ($/bbl),21.3
+2023-05-01,Oil ($/bbl),78.1
+2023-05-01,Diesel refining premium ($/bbl),23.6
+2023-06-01,Oil ($/bbl),76.4
+2023-06-01,Diesel refining premium ($/bbl),21.1
+2023-07-01,Oil ($/bbl),82.2
+2023-07-01,Diesel refining premium ($/bbl),22.6
+2023-08-01,Oil ($/bbl),87.3
+2023-08-01,Diesel refining premium ($/bbl),30.4
+2023-09-01,Oil ($/bbl),91.4
+2023-09-01,Diesel refining premium ($/bbl),33.9
+2023-10-01,Oil ($/bbl),90.6
+2023-10-01,Diesel refining premium ($/bbl),32.6
+2023-11-01,Oil ($/bbl),86.0
+2023-11-01,Diesel refining premium ($/bbl),26.8
+2023-12-01,Oil ($/bbl),74.6
+2023-12-01,Diesel refining premium ($/bbl),17.9
+2024-01-01,Oil ($/bbl),77.9
+2024-01-01,Diesel refining premium ($/bbl),17.7
+2024-02-01,Oil ($/bbl),83.0
+2024-02-01,Diesel refining premium ($/bbl),21.5
+2024-03-01,Oil ($/bbl),84.2
+2024-03-01,Diesel refining premium ($/bbl),19.7
+2024-04-01,Oil ($/bbl),83.8
+2024-04-01,Diesel refining premium ($/bbl),15.1
+2024-05-01,Oil ($/bbl),82.1
+2024-05-01,Diesel refining premium ($/bbl),15.3
+2024-06-01,Oil ($/bbl),84.2
+2024-06-01,Diesel refining premium ($/bbl),15.1
+2024-07-01,Oil ($/bbl),75.4
+2024-07-01,Diesel refining premium ($/bbl),15.2
+2024-08-01,Oil ($/bbl),74.6
+2024-08-01,Diesel refining premium ($/bbl),16.2
+2024-09-01,Oil ($/bbl),77.1
+2024-09-01,Diesel refining premium ($/bbl),14.6
+2024-10-01,Oil ($/bbl),74.0
+2024-10-01,Diesel refining premium ($/bbl),14.1
+2024-11-01,Oil ($/bbl),73.7
+2024-11-01,Diesel refining premium ($/bbl),14.0
+2024-12-01,Oil ($/bbl),71.0
+2024-12-01,Diesel refining premium ($/bbl),17.6
+2025-01-01,Oil ($/bbl),67.4
+2025-01-01,Diesel refining premium ($/bbl),11.0
+2025-02-01,Oil ($/bbl),69.7
+2025-02-01,Diesel refining premium ($/bbl),18.0
+2025-03-01,Oil ($/bbl),68.2
+2025-03-01,Diesel refining premium ($/bbl),20.1
+2025-04-01,Oil ($/bbl),64.9
+2025-04-01,Diesel refining premium ($/bbl),17.1
+2025-05-01,Oil ($/bbl),65.3
+2025-05-01,Diesel refining premium ($/bbl),22.2
+2025-06-01,Oil ($/bbl),65.9
+2025-06-01,Diesel refining premium ($/bbl),20.4
+2025-07-01,Oil ($/bbl),63.8
+2025-07-01,Diesel refining premium ($/bbl),23.5
+2025-08-01,Oil ($/bbl),65.1
+2025-08-01,Diesel refining premium ($/bbl),20.4
+2025-09-01,Oil ($/bbl),65.2
+2025-09-01,Diesel refining premium ($/bbl),21.7
+2025-10-01,Oil ($/bbl),64.1
+2025-10-01,Diesel refining premium ($/bbl),23.7
+2025-11-01,Oil ($/bbl),62.0
+2025-11-01,Diesel refining premium ($/bbl),22.3
+2025-12-01,Oil ($/bbl),63.2
+2025-12-01,Diesel refining premium ($/bbl),19.8
+2026-01-01,Oil ($/bbl),78.1
+2026-01-01,Diesel refining premium ($/bbl),32.5
+2026-02-01,Oil ($/bbl),91.3
+2026-02-01,Diesel refining premium ($/bbl),55.1
+2026-03-01,Oil ($/bbl),103.4
+2026-03-01,Diesel refining premium ($/bbl),64.7
+2026-04-01,Oil ($/bbl),97.5
+2026-04-01,Diesel refining premium ($/bbl),53.3
+2026-05-01,Oil ($/bbl),86.0
+2026-05-01,Diesel refining premium ($/bbl),45.4
+2026-06-01,Oil ($/bbl),79.8
+2026-06-01,Diesel refining premium ($/bbl),34.5
+2026-07-01,Oil ($/bbl),84.9
+2026-07-01,Diesel refining premium ($/bbl),54.8
+2026-08-01,Oil ($/bbl),97.8
+2026-08-01,Diesel refining premium ($/bbl),70.4
+2026-09-01,Oil ($/bbl),105.0
+2026-09-01,Diesel refining premium ($/bbl),88.0
