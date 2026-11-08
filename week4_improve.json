@@ -1,0 +1,82 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 360,
+  "background": "#FFFFFF",
+  "title": {
+    "text": "Diesel refining premium has surged to nearly match the price of crude oil",
+    "subtitle": [
+      "Oil price and diesel refining premium, $ per barrel, Dec 2021 to Sep 2026",
+      "Source: M&G, Bloomberg (approximate, illustrative data)"
+    ],
+    "anchor": "start",
+    "color": "#111111",
+    "subtitleColor": "#555555",
+    "fontSize": 18,
+    "subtitleFontSize": 13
+  },
+  "data": {"url": "https://raw.githubusercontent.com/sseimi715/sseimi715.github.io/refs/heads/main/week4_data.csv"},
+  "layer": [
+    {
+      "mark": "area",
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {
+            "title": null,
+            "format": "%b-%y",
+            "tickCount": {"interval": "month", "step": 3},
+            "grid": false,
+            "labelColor": "#333333",
+            "tickColor": "#333333",
+            "domainColor": "#333333"
+          }
+        },
+        "y": {
+          "field": "value",
+          "type": "quantitative",
+          "scale": {"domain": [0, 250]},
+          "axis": {
+            "title": "$ per barrel",
+            "titleColor": "#333333",
+            "labelColor": "#333333",
+            "values": [0, 50, 100, 150, 200, 250],
+            "grid": false,
+            "domain": false,
+            "ticks": false
+          }
+        },
+        "color": {
+          "field": "series",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Oil ($/bbl)", "Diesel refining premium ($/bbl)"],
+            "range": ["#5E9E4B", "#2C7FB8"]
+          },
+          "legend": null
+        },
+        "order": {"field": "series", "sort": "descending"}
+      }
+    },
+    {
+      "data": {"values": [{"a": 1}]},
+      "mark": {"type": "text", "align": "left", "fontWeight": "bold", "fontSize": 13, "color": "#FFFFFF"},
+      "encoding": {
+        "x": {"datum": {"year": 2023, "month": "jun", "date": 1}, "type": "temporal"},
+        "y": {"datum": 40, "type": "quantitative"},
+        "text": {"value": "Crude oil"}
+      }
+    },
+    {
+      "data": {"values": [{"a": 1}]},
+      "mark": {"type": "text", "align": "left", "fontWeight": "bold", "fontSize": 13, "color": "#2C7FB8"},
+      "encoding": {
+        "x": {"datum": {"year": 2023, "month": "jun", "date": 1}, "type": "temporal"},
+        "y": {"datum": 145, "type": "quantitative"},
+        "text": {"value": "Diesel refining premium"}
+      }
+    }
+  ],
+  "config": {"view": {"stroke": null}}
+}
