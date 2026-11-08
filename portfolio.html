@@ -59,10 +59,22 @@
 </section>
 
 <section>
-    <h2>CC3. Week3 Practice</h2><!-- --나중에 지우기, 포트폴리오에 포함 안되어 있고 세미나 실습용-->
+   <section>
+    <h2>CC4. Replication</h2>
+    <p class="topic">Replicating a Bond Vigilantes (M&amp;G) chart on the diesel refining premium.</p>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
-        <div class="chart-box"><h3>Chart 7</h3><figure id="pe_ratio_chart"></figure></div>
+        <div class="chart-box">
+            <h3>Original</h3>
+            <img src="week4_chart.png" alt="Original chart: Bond Vigilantes, Beware of the refining bottleneck" style="max-width:100%; width:720px;">
+            <p>Source: Bond Vigilantes (M&amp;G), Bloomberg, October 2026</p>
+        </div>
+        <div class="chart-box">
+            <h3>Chart 7</h3>
+            <figure id="cc4_replica"></figure>
+        </div>
     </div>
+</section>
+    
 </section>
 
     
@@ -73,7 +85,7 @@
      vegaEmbed('#cc2_chart2', 'cc2_chartB.json');
      vegaEmbed('#cc3_chart1', 'cc3_chartA.json');
      vegaEmbed('#cc3_chart2', 'cc3_chartB.json');
-     vegaEmbed('#pe_ratio_chart', 'pe_ratio_chart.json');
+     vegaEmbed('#cc4_replica', 'replica.json');
     </script>
 </body>
 </html>
