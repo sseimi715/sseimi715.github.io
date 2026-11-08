@@ -1,0 +1,68 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 720,
+  "height": 360,
+  "background": "#0B5563",
+  "title": {
+    "text": "Beware of the refining bottleneck",
+    "subtitle": "Is the refining premium scarier than the price of crude itself?",
+    "anchor": "start",
+    "color": "#8DC63F",
+    "subtitleColor": "#FFFFFF",
+    "fontSize": 22,
+    "subtitleFontSize": 16,
+    "subtitleFontWeight": "bold"
+  },
+  "data": {"url": "https://raw.githubusercontent.com/sseimi715/sseimi715.github.io/refs/heads/main/week4_data.csv"},
+  "mark": "area",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "title": null,
+        "format": "%b-%y",
+        "tickCount": {"interval": "month", "step": 3},
+        "grid": false,
+        "labelColor": "#FFFFFF",
+        "tickColor": "#FFFFFF",
+        "domainColor": "#FFFFFF"
+      }
+    },
+    "y": {
+  "field": "value",
+  "type": "quantitative",
+  "scale": {"domain": [0, 250]},
+  "axis": {
+    "title": "$ per barrel",
+    "titleColor": "#FFFFFF",
+    "labelColor": "#FFFFFF",
+    "values": [0, 50, 100, 150, 200, 250],
+    "grid": false,
+    "domain": false,
+    "ticks": false
+  }
+},
+    "color": {
+      "field": "series",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Oil ($/bbl)", "Diesel refining premium ($/bbl)"],
+        "range": ["#7AB648", "#5BB6E8"]
+      },
+     "legend": {
+        "orient": "none",
+        "legendX": 243,
+        "legendY": 405,
+        "direction": "horizontal",
+        "title": null,
+        "labelColor": "#FFFFFF",
+        "symbolType": "square"
+      }
+    },
+    "order": {"field": "series", "sort": "descending"}
+  },
+  "config": {
+    "view": {"stroke": null}
+  }
+}
