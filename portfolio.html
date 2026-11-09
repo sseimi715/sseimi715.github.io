@@ -79,6 +79,24 @@
     </div>
 </section>
 
+<section>
+    <h2>CC5. API and Scraper</h2>
+    <p class="topic">Female labour force participation</p>
+    <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+        <div class="chart-box" style="width: 800px;">
+    <h3>Chart 9</h3>
+    <figure id="cc5_api"></figure>
+    <div class="finding" style="text-align: left; padding-left: 60px;">
+        <p><b>World Bank Indicators API</b> (live link: the chart reloads the data every time the page opens).</p>
+        <ul>
+            <li><b>Base URL:</b> https://api.worldbank.org/v2/</li>
+            <li><b>Elements needed:</b> country codes (country/KOR;JPN;SWE), an indicator code (indicator/SL.TLF.CACT.FE.NE.ZS), and options: format=json, per_page=1000, date=1960:2025. No API key is required.</li>
+            <li><b>Data returned:</b> JSON, a list of two objects: [metadata, data]. The data has one row per country-year, so it is close to tidy, but the country and indicator fields are nested, and years without a published value are null.</li>
+            <li><b>Full URL used:</b> <span style="word-break: break-all;">https://api.worldbank.org/v2/country/KOR;JPN;SWE/indicator/SL.TLF.CACT.FE.NE.ZS?format=json&amp;per_page=1000&amp;date=1960:2025</span></li>
+        </ul>
+    </div>
+</div>
+</section>
     
     <script>
      vegaEmbed('#cc1_chart1', 'cc1_chartA.json');
@@ -89,6 +107,9 @@
      vegaEmbed('#cc3_chart2', 'cc3_chartB.json');
      vegaEmbed('#cc4_replica', 'week4_replica.json');
      vegaEmbed('#cc4_improve', 'week4_improve.json');
+     vegaEmbed('#cc5_api', 'week5_api.json');
+     vegaEmbed('#cc5_scraper', 'week5_scraper');
+
     </script>
 </body>
 </html>
