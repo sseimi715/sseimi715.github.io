@@ -1,0 +1,31 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://api.worldbank.org/v2/country/KOR;JPN;SWE/indicator/SL.TLF.CACT.FE.NE.ZS?format=json&per_page=1000&date=1960:2025",
+    "format": {"property": "[1]"}
+  },
+  "width": 600,
+  "height": 350,
+  "title": {
+    "text": "Female labour force participation",
+    "subtitle": "% of women aged 15+, national estimates. Source: World Bank"
+  },
+  "mark": {
+  "type": "line",
+  "point": {"size": 18},
+  "strokeWidth": 2
+},
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "title": ""},
+    "y": {"field": "value", "type": "quantitative", "title": "% of women aged 15+"},
+    "color": {
+      "field": "country.value",
+      "type": "nominal",
+      "title": "Country",
+      "scale": {
+        "domain": ["Korea, Rep.", "Japan", "Sweden"],
+        "range": ["#0047A0", "#d62728", "#E8B800"]
+      }
+    }
+  }
+}
