@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/sseimi715/sseimi715.github.io/main/week5_fca_fines.csv"
+  },
+  "width": 600,
+  "height": 350,
+  "title": {
+    "text": "FCA fines vary sharply from year to year",
+    "subtitle": "Total fines per year, £ million. 2026 is year to date. Source: FCA fines pages"
+  },
+  "transform": [
+    {"calculate": "datum.amount / 1000000", "as": "amount_m"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "year", "type": "ordinal", "title": ""},
+    "y": {"aggregate": "sum", "field": "amount_m", "type": "quantitative", "title": "£ million"},
+    "color": {
+      "condition": {"test": "datum.year == 2026", "value": "#bbbbbb"},
+      "value": "#6c1d45"
+    }
+  }
+}
