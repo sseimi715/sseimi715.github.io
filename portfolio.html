@@ -14,13 +14,26 @@
     .chart-box { text-align: center; }
     .topic { text-align: center; font-size: 20px; font-weight: bold; }
     .finding { font-size: 16px; }
+    html { scroll-behavior: smooth; }
+    .nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
+    .nav a { padding: 6px 14px; border: 1px solid brown; border-radius: 6px; color: brown; text-decoration: none; font-weight: bold; }
+    .nav a:hover { background: brown; color: white; }
 </style>
 </head>
 
 <body>
     <h1 class="big">Portfolio-Jeehye Kim</h1>
 
-    <section>
+    <nav class="nav">
+        <a href="#cc1">CC1</a>
+        <a href="#cc2">CC2</a>
+        <a href="#cc3">CC3</a>
+        <a href="#cc4">CC4</a>
+        <a href="#cc5">CC5</a>
+        <a href="#cc8">CC8</a>
+    </nav>
+
+    <section id="cc1">
         <h2>CC1. Hosting</h2>
          <div style="display: flex; gap: 40px; flex-wrap: wrap;">
          <div class="chart-box">
@@ -34,7 +47,7 @@
          </div>
     </section>
 
-<section>
+<section id="cc2">
     <h2>CC2. Building</h2>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
     <div class="chart-box">
@@ -48,7 +61,7 @@
     </div>
 </section>
 
-<section>
+<section id="cc3">
     <h2>CC3. Policy debate</h2>
     <p class="topic">Policy response to South Korea's falling fertility and rising old-age burden.</p>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
@@ -58,7 +71,7 @@
     <p class="finding">Fertility fell from over 6 births per woman to below 1 while old-age dependency passed 25, so pension and care policy needs strengthening.</p>
 </section>
 
-<section>
+<section id="cc4">
     <h2>CC4. Replication</h2>
     <p class="topic">Replicating a Bond Vigilantes (M&amp;G) chart on the diesel refining premium.</p>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
@@ -79,7 +92,7 @@
     </div>
 </section>
 
-<section>
+<section id="cc5">
     <h2>CC5. API and Scraper</h2>
     <p class="topic">Female labour force participation</p>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
@@ -104,14 +117,15 @@
 </div>
 </section>
 
-<section>
+<section id="cc8">
     <h2>CC8. Big data</h2>
     <p class="topic">Matcha lattes on UK menus</p>
     <div style="display: flex; gap: 40px; flex-wrap: wrap;">
         <div class="chart-box"><h3>Chart 13</h3><figure id="cc8_chart1"></figure></div>
         <div class="chart-box"><h3>Chart 14</h3><figure id="cc8_chart2"></figure></div>
     </div>
-    <p class="finding">In the same venues (2025–26), a matcha latte costs a median £0.40 more than a plain latte (2,151 venues); flavoured coffee lattes cost £0.50 more. Matcha is now on 30% of latte venues’ menus, up from 5% in 2017. Drinks classified by menu name.</p>
+    <p class="finding">A matcha latte costs a median £0.40 more than a plain latte in the same venue (2,151 venues, 2025–26) and is dearer in 81% of them. Flavoured coffee lattes carry a bigger premium, £0.50, so matcha is not unusually dear. Matcha is now at 30% of venues selling lattes, up from 5% in 2017. The data’s “latte” includes non-coffee drinks (matcha, turmeric, beetroot: about 18% of prices), so I compared coffee lattes only, classified by menu name. Data cover 25 UK city regions; prices, not costs, so why remains unknown.</p>
+    <p class="finding">Notebook: <a href="https://colab.research.google.com/drive/1A99vri7B9VRCsqw7AuC64KJ_H4PrV3Mj?usp=sharing">Google Colab</a></p>
 </section>
     
     <script>
